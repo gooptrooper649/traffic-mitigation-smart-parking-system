@@ -1,0 +1,35 @@
+# Computer Vision and Image Processing
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Object Detection
+ultralytics>=8.0.0
+
+# PyTorch (compatible version to avoid weights_only issues)
+torch==2.5.1
+torchvision==0.20.1
+
+# Geometric Operations for Lane Management
+shapely>=2.0.0
+
+# Optional: For enhanced tracking capabilities
+# scipy>=1.10.0  # For advanced tracking algorithms
+# scikit-learn>=1.3.0  # For ML-based tracking
+
+# Optional: For API server functionality
+# flask>=2.3.0
+# flask-cors>=4.0.0
+
+# Optional: For data visualization and analytics
+# matplotlib>=3.7.0
+# seaborn>=0.12.0
+# pandas>=2.0.0
+
+# Optional: For video processing enhancements
+# imageio>=2.31.0
+# pillow>=10.0.0
+
+# Development and Testing (optional)
+# pytest>=7.4.0
+# black>=23.0.0
+# flake8>=6.0.0

@@ -1,0 +1,16 @@
+# Node
+node_modules/
+
+# Android
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+
+# Firebase
+google-services.json
+
+# OS
+.DS_Store
+Thumbs.db
