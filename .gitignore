@@ -1,5 +1,31 @@
-# Node
+# Ignore dependencies and virtual environments
 node_modules/
+venv/
+.venv/
+*.egg-info/
+__pycache__/
+.pytest_cache/
+dist/
+build/
+
+# Python virtual environments
+traffic_analytics/venv/
+traffic_analytics/.venv/
+app/**/venv/
+app/**/.venv/
+
+# Ignore dependencies
+node_modules/
+venv/
+.venv/
+*.egg-info/
+__pycache__/
+.pytest_cache/
+dist/
+build/
+local.properties
+.idea/
+*.iml
 
 # Android
 .gradle/
